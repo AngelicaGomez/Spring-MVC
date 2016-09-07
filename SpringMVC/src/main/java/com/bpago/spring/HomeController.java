@@ -32,7 +32,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		model.addAttribute("prueba", "Hellooooooooooooo");
+		model.addAttribute("prueba", "Hola  xD, Prueba Spring MVC");
 		
 		return "home";
 	}
